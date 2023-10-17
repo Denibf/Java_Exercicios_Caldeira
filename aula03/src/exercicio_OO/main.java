@@ -15,10 +15,7 @@ public class main {
 
         Scanner iput = new Scanner(System.in);
 
-
-
         int op;
-
             do {
                 System.out.println("Digite 2 para Saque");
                 System.out.println("Digite 3 para Deposito");
@@ -34,13 +31,14 @@ public class main {
                 System.out.println();
 
                 switch (x.toLowerCase(Locale.ROOT)){
-                    case 1 -> {
+                    case "1": {
                         System.out.println("Quanto você quer sacar?");
-                    double saque = iput.nextDouble();
-                    String saldoFinal = conta.Sacar(saque);
+                        double saque = iput.nextDouble();
+                        String saldoFinal = conta.Sacar(saque);
 
-                    }
-                }
+
+
+                        }
 
                 op = iput.nextInt();
             }while(op!=9);
