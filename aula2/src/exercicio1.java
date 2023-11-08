@@ -1,6 +1,7 @@
 //Crie um programa que determine e escreva os números primos
 // compreendidos entre um intervalo fornecido pelo usuário.
 
+
 import java.util.Scanner;
 public class exercicio1 {
     public static void main(String[]args){
@@ -14,7 +15,7 @@ public class exercicio1 {
 
        System.out.println("Intervalo escolhoido["+ num1 + ", "+ num2+"]");
 
-
+        
 
     }
 }
